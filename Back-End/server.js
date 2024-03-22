@@ -11,4 +11,4 @@ app.get('/ping',(req,res) =>{
 app.listen(port, () => {
     startDatabase()
     console.log(`Server is running on port ${port}`);
-  });
+  })
