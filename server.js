@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
-const port = 3000
+const port = 5000
+const {startDatabase, stopDatabase, isConnect} = require('./db')
 
 
 app.get('/ping',(req,res) =>{
@@ -8,5 +9,6 @@ app.get('/ping',(req,res) =>{
 })
 
 app.listen(port, () => {
+    startDatabase()
     console.log(`Server is running on port ${port}`);
   });
