@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#firstarea{
+    height: 20vh;
+    width: 80vw;
+    background-color: rgba(0, 187, 255, 0.416);
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+    font-size: 30px;
+}
